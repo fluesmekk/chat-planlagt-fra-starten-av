@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="app"></div>
+
+    <script src="model.js"></script>
+    <script src="script.js"></script>
+    <script src="updateview.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyA59TjB8rE-ZQDh3dMMOUn-_Ho4jG1MgKE",
+            authDomain: "planlagt-chat.firebaseapp.com",
+            projectId: "planlagt-chat",
+            storageBucket: "planlagt-chat.appspot.com",
+            messagingSenderId: "418621997464",
+            appId: "1:418621997464:web:51e588d50d5cae4811ebed"
+        };
+        // Initialize Firebase
+        
+        firebase.initializeApp(firebaseConfig);
+        var auth = firebase.auth()
+        var db = firebase.firestore()
+    </script>
+</body>
+
+</html>

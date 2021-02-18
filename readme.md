@@ -7,8 +7,9 @@ kunne lage en chat om den ikke finnes []
 åpne og høre på realtime på chatten som er valgt []
 få det til å se pent ut []
 Lage resten av siden,  alla intern person database []
+forskjellige views med hoved updateView []
 
-
+lage promises som resolver med informasjon??
 
 
 
