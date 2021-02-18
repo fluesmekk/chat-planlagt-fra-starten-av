@@ -1,7 +1,7 @@
 Firestore med autentication
 
-lage modell og firestore []
-lage liste med alle users []
+lage modell og firestore [Done]
+lage liste med alle users [Done]
 skjekke om det finnes en chat []
 kunne lage en chat om den ikke finnes []
 åpne og høre på realtime på chatten som er valgt []
@@ -13,7 +13,7 @@ lage promises som resolver med informasjon??
 
 
 
-hente alle users og lage en index
+hente alle users og lage en index, kan ikke hente alle users uten å bruke admin sdk, som er node server basert.
 
 dataoppsett firestore:
 users -> user.doc ->    email

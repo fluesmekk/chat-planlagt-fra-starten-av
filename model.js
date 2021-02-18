@@ -6,5 +6,8 @@ const model = {
     inputs:{
         inputEmail: '',
         inputPassword: '',
-    }
+    },
+    users: [
+        
+    ],
 }

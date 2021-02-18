@@ -39,8 +39,15 @@ function createUserView() {
 
 function chatView() {
     getAllUsers()
+    var userList = '';
     let html = ''; 
+    for (let i = 0; i < model.users.length; i++) {
+        userList += `
+        <div onclick="checkIfUserHasCorrespondingChatId(${model.user[i].uid})">${model.users[i].email}</div>
+        `;
+    }
     html += `
+    ${userList}
     <div></div>
     `;
 }
