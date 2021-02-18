@@ -1,0 +1,16 @@
+Den går alltid å lager en ny en da jeg ikke lagrer etter jeg har addet!!!! 
+
+holder på med saveUserObject for å lagre chatsWith verdier midlertidig.
+
+
+
+
+Chatten er usikker da den går inn i andres chatsWith..
+Bedre å lage den på nytt hvor man bare leter i chats!
+
+
+planlegge en ny chat, hvor det er enda mere fokus på datastruktur.
+Ha en liste over alle userUid? Hvordan??
+Kanskje har rules hvor alle users kan hente alle user uid.
+Skal user ha tilgang til alle chats?`kanskje bare hvor de er included
+Lage den nye chatten med promises, da enklere å vite hvor det forekommer feil!!

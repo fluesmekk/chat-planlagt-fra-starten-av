@@ -1,5 +1,6 @@
 updateView();
 function updateView() {
+    getAllUsers()
     html = '';
     if (model.app.currentPage == 'logIn') {html = logInView()}
     if (model.app.currentPage == 'createUser') {html = createUserView()}
@@ -38,7 +39,7 @@ function createUserView() {
 }
 
 function chatView() {
-    getAllUsers()
+    
     var userList = '';
     let html = ''; 
     for (let i = 0; i < model.users.length; i++) {
