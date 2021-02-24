@@ -6,7 +6,8 @@ Ting tenkt i etterkant,
 - Kanskje heller lage en søkefunksjon som henter ett array med objekter som tilsvarer public informasjonen man trenger for å oprette en chat.
 
 
-/////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 Firestore med autentication
 
 lage modell og firestore [Done]
