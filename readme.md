@@ -6,6 +6,10 @@ Ting tenkt i etterkant,
 - Kanskje heller lage en søkefunksjon som henter ett array med objekter som tilsvarer public informasjonen man trenger for å oprette en chat.
 
 
+Pages fremvisning: https://fluesmekk.github.io/chat-planlagt-fra-starten-av/
+Ha den ene i inkognito for å være på 2 brukere samtidig.
+
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Firestore med autentication
