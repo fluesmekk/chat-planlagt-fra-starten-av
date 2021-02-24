@@ -1,15 +1,23 @@
+Chat laget ferdig
+
+Ting tenkt i etterkant, 
+- Inne i userdokumentet kan man ha en innercolleciton hvor man har sensitivinformasjon. Det grunneste i userdoc er public.
+- Om applikasjonen skal kunne skaleres på stort nivå vil det ikke være gunstig å hente alle users, 
+- Kanskje heller lage en søkefunksjon som henter ett array med objekter som tilsvarer public informasjonen man trenger for å oprette en chat.
+
+
+/////////////////////////
 Firestore med autentication
 
 lage modell og firestore [Done]
 lage liste med alle users [Done]
-skjekke om det finnes en chat []
-kunne lage en chat om den ikke finnes []
-åpne og høre på realtime på chatten som er valgt []
-få det til å se pent ut []
-Lage resten av siden,  alla intern person database []
-forskjellige views med hoved updateView []
+skjekke om det finnes en chat [Done]
+kunne lage en chat om den ikke finnes [Done]
+åpne og høre på realtime på chatten som er valgt [Done]
+få det til å se pent ut [Done]
+Lage resten av siden,  alla intern person database [Done]
+forskjellige views med hoved updateView [Done]
 
-lage promises som resolver med informasjon??
 
 
 
