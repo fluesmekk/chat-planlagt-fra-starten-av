@@ -1,5 +1,259 @@
 .logInInputs {
+    
+    margin: auto;
+    margin-top: 3%;
     display: flex;
     flex-direction: column;
+    width: 25%
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+body {
+    margin: 0;
+    background-color: #ced6e0;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.chat {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;    
+}
+
+.chatBar {
+    background-color: #70a1ff;
+    border-top: solid black 1px;
+    border-left: solid black 1px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    width: auto;
+    height: auto;
+    position:relative;
+    right: 0;
+    bottom: 0;
+}
+
+.currentChat {
+    font-size: medium;
+    border-top: solid black 1px;
+    border-left: solid black 1px;
+    background-color: #dfe4ea;
+    border-top-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 200px;
+    width: 40%;
+    height: 200px;
+    overflow-x: scroll;
+    padding-bottom: 12px;
+}
+
+
+
+.chatTalkingTo {
+    position: absolute;
+    background-color: #70a1ff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-top: 1px;
+    bottom: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #747d8c5e;
+}
+
+.sendButton {
+    
+}
+.inputChatAndButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-left: -1px;
+
+}
+
+
+
+.messageFromCurrentUser {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.messageFromOther {
+    
+    background-color: #a4b0be;
+    border: solid #a4b0be 1px;
+    border-radius: 5px;
+}
+
+.messageFromSelf {
+    background-color: #70a1ff;
+    border: solid #70a1ff 1px;
+    border-radius: 5px;
+}
+
+.messageFromOtherUser {
+    display: flex;
+    justify-content: flex-start;
+    width: auto; 
+}
+
+.messageTxt {
+    margin-top: 7px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.chatPerson {
+    height: 30px;
+    display: flex;
+    justify-content: start;
+}
+
+.centerInfoBlock {
+    background-color: #dfe4ea;
+    width: 100%;
+    height: 200%;
+}
+
+.roundNumber {
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+.nonRoundNumber {
+    background-color: rgba(222, 184, 135, 0.178);
+    align-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+    
+}
+
+.mainpage {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.centerPage {
+    margin-top: 5%;
+    padding-right: 100%;
+    justify-content: center;
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.meetingInfo {
+    padding-top: 2%;
+}
+
+.centerPageItem{
+    margin-left: 10%;
     width: 30%;
+    height: 10%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #a4b0be;
+    height: 100%;
+    width: 8%;
+    border: solid black 1px;
+}
+
+
+.navbarHorizontal {
+    padding-top: 4px;
+    display: flex;
+    flex-direction: column;
+    background-color: #a4b0be;
+    height: 3.5%;
+    width: 100%;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    border-right: solid black 1px;
+}
+
+.userInfo {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbarElements {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navElement {
+    margin-top: 40%;
+    font-size: larger;
+}
+.navElement:hover {
+    margin-top: 40%;
+    font-size: larger;
+    color: white;
+}
+
+html {
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    padding-bottom: 1px;
+    padding-top: 2px;
+    background-color: #57606f;
+    width: 10px;
+    border: solid black 1px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #747d8c;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #a4b0be;
 }

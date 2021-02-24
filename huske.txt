@@ -16,3 +16,5 @@ Skal user ha tilgang til alle chats?`kanskje bare hvor de er included
 Lage den nye chatten med promises, da enklere å vite hvor det forekommer feil!!
 
 Lage en idalgorytnme som lager en id basert på 2 ideer, den skal bli lik uansett hvilke ideer man starter funksjonen med.
+
+Lage en index med public user info som eks hvilken chat og userid som hører til.

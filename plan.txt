@@ -1,0 +1,8 @@
+
+Åpne en fane med den man skal snakke med + profilbilde
+
+fikse change page når man logger inn
+
+
+feilsøke åpne chat!!!
+
