@@ -10,6 +10,12 @@ Pages fremvisning: https://fluesmekk.github.io/chat-planlagt-fra-starten-av/
 Ha den ene i inkognito for å være på 2 brukere samtidig.
 
 
+
+
+.
+.
+.
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Firestore med autentication
